@@ -1,0 +1,1095 @@
+
+/* COMMON CODE  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER CSS STARTS */
+
+/* top header css starts*/
+
+.top_header{
+    background-color: #efefef;
+
+} 
+.toph{
+    padding: 2px 0;
+}
+.navbar-brand{
+    color: #7f7f7f;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: .3s all ease-in-out;
+}  
+.nav-link{
+    transition: .3s all ease-in-out;
+   
+}
+.nav-link:hover{
+    color: orange;
+   
+   
+    /* font-weight: 700; */
+}
+.nav-item{
+    margin-left: 34px;
+    text-transform: uppercase;
+    color: #7f7f7f;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}    
+/* top header css ends */
+/* main header css starts  */
+
+.main_header{
+    background-color: #ffffff;
+}
+
+/* ****** sticky header ****** */
+/* ****** sticky header ****** */
+
+.btn-join_now {    
+    background-color:#ff9b1a;
+    padding: 6px 10px;
+    border-radius: 29px;
+    color: #fff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .4s all ease-in-out;
+}
+.btn-join_now:hover{
+    background-color:#1c1c1c;
+    color: #fff;
+}
+.a{
+    margin-left: 18px; 
+   
+}
+.b{
+   color: #161616;
+   font-size: 14px;
+   transition: .3s all ease-in-out;
+   padding: 8px 10px;
+   border-radius: 29px;
+}
+.b:hover{
+    color: #ff9b1a;
+    background-color: #ff9b1a;
+    color: black;
+}
+/* HEADER CSS ENDS */
+/* FEATURE SECTION CSS STARTS  */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    z-index: 2;
+   
+    
+}
+.banner::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .65;
+    z-index: -1;
+   
+}
+
+.banner h1{
+    text-align: center;
+    font-size: 52px;
+    color: #efefef;    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 150px 0px 50px 0;
+
+}
+.walet{
+    text-align: center;
+
+}
+.walet h6{    
+    color:#efefef;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+.walet p{
+    color:#efefef;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 5px;
+   
+}
+.walet p{
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.btn-join_us {
+    background-color: #ff9b1a;
+    padding: 6px 20px;
+    border-radius: 30px;
+    color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: .4s all ease-in-out;
+    margin-top: 45px;
+    text-transform: uppercase;
+    border: 1px solid #efefef;
+}
+.btn-join_us:hover{
+    background-color:transparent;
+    border: 1px solid #efefef;
+    color: #fefefe;
+}
+.btn-contact_us {
+    background-color: transparent;
+    padding: 6px 18px;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: .4s all ease-in-out;
+    margin-top: 45px;
+    margin-left: 15px;
+    border: 1px solid #efefef;
+    text-transform: uppercase;
+}
+.btn-contact_us:hover{
+    background-color: #ff9b1a;
+    border: 1px solid #efefef;
+    color: #fff;
+}
+
+/* FEATURE SECTION CSS ENDS  */
+/* VERIFY section STARTS  */
+
+.verify {
+    padding: 50px 0;
+}
+
+.profile_details {
+    border: 1px solid #efefef;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    
+    z-index: 1;
+}
+.profile_image {
+    /* height: 92px;
+    width: 92px;
+    display: block;
+    margin: auto;
+    line-height: 92px; */
+   
+    margin-bottom: 20px;
+}
+.profile_image i {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 64px;
+    color: #ff9b1a;
+    transition: .5s all ease-in-out;
+}
+.profile_details:hover .profile_image i{
+    color: #fff;
+}
+/* **** */
+
+.profile_details h6 {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    transition: .5s all ease-in-out;
+    margin-bottom: 20px;
+}
+.profile_details p {
+    color: #545454;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin: 13px 0;
+    transition: .5s all ease-in-out;
+}
+.profile_details:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 0%;
+    background-image: url(../images/layer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    transition: .6s all ease-in-out;
+}
+.profile_details:hover:before{
+    width: 100%;
+    height: 100%;
+}
+.profile_details:hover h6{
+    color: #fff;
+
+}
+.profile_details:hover p{
+    color: #fff;
+
+}
+
+/* VERIFY section ENDS  */
+/* SERVICES CSS STARTS */
+.services {
+    padding: 50px 0;
+}
+.heading{
+    text-align: center;
+
+}
+.heading h3 {
+    color: #2b2b2b;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.heading p {
+    color: #6e6e6e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.heading span {
+    display: block;
+    height: 2px;
+    width: 60px;
+    background: transparent;
+    margin: 18px auto;
+    transition: .5s all ease-in-out;
+    position: relative;
+}
+.heading span::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color:#ff9f23;
+    transition: .5s all ease-in-out;
+
+}
+.heading span::after{
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #ff9f23;
+    transition: .5s all ease-in-out;
+    
+}
+.services:hover .heading span::after,.simple_steps:hover .heading span::after,.expert:hover .heading span::after,.contact:hover .heading span::after,.blog:hover .heading span::after,.feedback:hover .heading span::after{
+    width: 50%;
+        
+}
+.services:hover .heading span::before,.simple_steps:hover .heading span::before,.expert:hover .heading span::before,.contact:hover .heading span::before,.blog:hover .heading span::before,.feedback:hover .heading span::before{
+    width: 50%;
+}
+
+.coin_box {
+    text-align: center;
+}
+.coin_img {
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.coin_box h6 {
+    color: #2b2b2b;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.coin_box p {
+    color: #424242;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 5px 0;
+}
+.read_button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.btn-view_more{
+    background-color:transparent;
+    padding: 6px 18px;
+    border-radius: 30px;
+    color: #2b2b2b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    transition: .4s all ease-in-out;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border: 1px solid #2b2b2b;
+
+}
+.btn-view_more:hover{
+    background-color: #2b2b2b;
+    color: #fff;
+    transition: .4s all ease-in-out;
+}
+
+
+/* SERVICES CSS ENDS */
+/* SIMPLE STEPS CSS STARTS */
+.simple_steps {
+    padding-top: 45px;
+    background-image: url(../images/iphone_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+.simple_steps::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .55;
+    z-index: -1;
+    
+}
+.simple_steps .heading{
+    text-align: start;
+
+} 
+.simple_steps .heading h3 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.simple_steps .heading span{
+    margin: 15px 0;
+}
+
+.i_phone{
+
+}
+.i_phone img {
+    position: absolute;
+    left: 22%;
+    bottom: 0;
+    width: 21%;
+}
+.download_box {
+    margin: 54px 0;
+}
+.download {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.d_image {
+    margin-right: 20px;
+}
+.d_details{
+
+}
+.d_details h5 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.d_details p{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin:5px 0;
+    font-size: 14px;
+    
+    
+}
+
+/* SIMPLE STEPS CSS ENDS */
+/* NUMBER CSS STARTS */
+.number {
+    padding: 30px 0;
+    background: #ff9b1a;
+}
+.number_box {
+    text-align: center;
+}
+.number_box h4 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.number_box p{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 7px 0;
+    
+}
+
+
+/* NUMBER CSS ENDS */
+/* DIAGRAM CSS STARTS  */
+.diagram {
+    padding: 70px 0;
+}
+.diagram_img{
+    display: flex;
+    justify-content: center;
+}
+/* DIAGRAM CSS ENDS  */
+/* EXPERT CSS STARTS  */
+.expert{
+    padding: 30px 0;
+}
+.expert_details{
+    text-align: center;
+
+}
+.expert_img {
+    width: 55%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.expert_img img{
+    
+}
+.expert_details h6 {
+    color: #1e1e1e;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.expert_details p {
+    color: #ff9b1a;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+/* EXPERT CSS ENDS  */
+/* FORM SECTION CSS STARTS  */
+.contact{
+    padding: 45px 0;
+    background-image: url(../images/form_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.contact .heading h3 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.contact_form{
+    
+}
+
+.form_input{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contact_form form input {
+    width: 30%;
+    padding: 7px;
+    background: transparent;
+    border: 1px solid #ffffffad;
+    color: #fff;
+}
+.contact_form form input::placeholder{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-left: 7px;
+
+}
+.contact_form form input:focus {
+    background: transparent;
+    border: 1px solid #fb8f2c;
+    box-shadow: none;
+    color: #fff;
+    
+}
+
+
+.contact_form form textarea {
+    width: 100%;
+    margin: 20px 0;
+    height: 90px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #ffffffad;
+    color: #fff;
+    padding: 7px;
+    
+}
+.contact_form form textarea::placeholder{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 5px;
+
+}
+.contact_form form textarea:focus {
+    background: transparent;
+    border: 1px solid #fb8f2c;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+
+
+.contact_form form input[type='submit']{
+    padding: 7px 20px;
+    display: block;
+    margin: auto;
+    width: 9%;
+    border-radius: 30px;
+    background: #fb8f2c;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border: 1px solid #fff;
+    transition: .5s all ease-in-out;
+
+}
+.contact_form form input[type='submit']:hover{
+    background-color: #1e1e1e;
+    
+}
+
+
+
+/* FORM SECTION CSS ENDS  */
+/* BLOG CSS STARTS  */
+.blog{
+    padding: 45PX 0;
+}
+.blog_box {
+    position: relative;
+    border: 1px solid #80808042;
+    border-radius: 10px;
+}
+.blog_img{
+    
+}
+.blog_img img{
+    width: 100%;
+}
+.etc{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.etc img{
+    position: absolute;
+    content: '';
+    left: 4%;
+    bottom: 32%;
+}
+.etc p {
+    color: #6e6e6e;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 2px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+.etc a{
+    text-decoration: none;
+    color: #6e6e6e;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 2px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    transition: .4s all ease-in-out;
+} 
+.etc a:hover{
+    color: orangered;
+}
+.blog_heading{
+    margin-top: 10px;
+
+}
+.blog_heading h5 {
+    color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 29px 0 10px 10px;
+}
+.blog_heading p{
+    color: #6e6e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 5px 0 40px 10px;
+}
+
+/* BLOG CSS ENDS  */
+/* FEEDBACK SECTION CSS STARTS  */
+.feedback {
+    padding: 40px 0;
+    border-bottom: 3px solid #fb8f2c;
+}
+.investor{
+    margin-top: 70px;
+    position: relative;
+
+}
+.investor_img{
+    
+    text-align: center;
+    width: 10%;
+    margin: auto;
+
+}
+.investor_img img{
+    
+    
+}
+.investor_details{
+    text-align: center;
+    margin-top: 20px;
+}
+.investor_details h6 {
+    color: #1c1c1c;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.investor_details p {
+    color: #fb8f2c;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* owl carousel nav  */
+.owl-nav{
+
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.owl-nav .owl-prev i{
+    color: #f57702;
+    font-size: 20px;
+    
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+.owl-nav .owl-next i{
+    color: #999999;
+    font-size: 20px;
+    
+}
+
+
+
+/* FEEDBACK SECTION CSS ENDS  */
+/* FOOTER  CSS STARTS*/
+
+footer{
+
+}
+
+/* top footer css  */
+.top_footer {
+    background-color: #101010;
+    padding: 55px 0;
+}
+
+.footer_logo {
+    margin-bottom: 33px;
+    cursor: pointer;
+}
+
+.footer_logo img{
+    width: 45%;
+    
+}
+.f_description {
+    /* margin-top: 35px; */
+}
+.f_description p {
+    color: #989898;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 31px;
+}
+.icon_box {
+    display: flex;
+}
+.single_icon {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #3d3c3a;
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+.single_icon:hover{
+    border: 1px solid #00aced; 
+}
+
+.single_icon:hover.single_icon a i{
+    color: #00aced;
+}  
+.single_icon a{
+    
+}
+.single_icon a i {
+    color: #3d3c3a;
+    transition: .5s all ease-in-out;
+    font-size: 20px;
+}
+.f_header {
+    margin-bottom: 35px;
+}
+/* common css  */
+.f_header h3 {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.f_header span {
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #fb8f2c;
+    margin: 5px 0;
+}
+.contact_us {
+    
+}
+.contact_us p{
+    color: #989898;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.address {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+}
+.icon {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 14px;
+}
+.icon i {
+    font-size: 20px;
+    color: #989898;
+}
+.icon p{
+    
+}
+.links{
+
+}
+.links ul {
+    list-style: none;
+}
+.links ul li {
+    margin-bottom: 2px;
+}
+.links ul li a {
+    text-decoration: none;
+    color: #989898;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: .4s all ease-in-out;
+}
+.links ul li a:hover{
+    color:#fb8f2c ;
+}
+.newsletter_details{
+
+}
+.newsletter_details p {
+    color: #989898;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.newsletter_details form input {
+    padding: 11px;
+    border-radius: 30px;
+    width: 100%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    
+    
+}
+.newsletter_details form input:focus {
+    outline: none;
+}
+.newsletter_details form input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: capitalize;
+    
+}
+.newsletter_details form{
+    position: relative;
+}
+.arrow_box {
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    background: #fb8f2c;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: 5%;
+    display: inline-block;
+    transition: .4s all ease-in-out;
+}
+.arrow_box:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+.arrow_box a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* bootom footer css */
+.bottom_footer {
+    background-color: #000000;
+    padding: 7px 0;
+}
+.bottom_footer p {
+    color: #504e4e;
+    font-size: 16px;
+}
+.bottom_footer p span {
+    color: #fff;
+    margin-right: 7px;
+    font-size: 16px;
+}
+.bottom_footer .b{
+    color: #737272 !important;
+    font-size: 14px;
+    transition: .3s all ease-in-out;
+    
+} 
+
+.bottom_footer .b:hover{
+    color: #fb8f2c !important;
+    background-color: transparent;
+    
+}
+
+/* FOOTER CSS ENDS*/
+
+/* JQUERY PART  */
+.particles-js-canvas-el {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* ************* Progress Wrap css ******************* */
+.progress-wrap {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 50%;
+    opacity: 1;
+    justify-content: end;
+    align-items: center;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    box-shadow: inset  0 0 0 2px rgba(146, 78, 78, 0);
+    transform: translateY(15px);
+    transition: all 200ms linear;
+   z-index: 0;
+  }
+  .progress-wrap svg i{
+    margin-right: 17px;
+  }
+  .progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .progress-wrap::after {
+    position: absolute;
+    content: '↑';
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    color: orange;
+    opacity: 1;
+    left: 0;
+    top: 0;
+    height: 45px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    transition: all 200ms linear;
+  }
+  .progress-wrap:hover::after {
+    opacity: 0;
+    color: orange;
+  }
+  
+  .progress-wrap::before {
+    position: absolute;
+     content: '↑';
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    opacity: 1;
+    color: orange;
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    transition: all 200ms linear;
+  }
+  .progress-wrap:hover::before {
+    opacity: 1;
+    color: orange;
+  }
+  
+  .progress-wrap svg path { 
+    fill: none; 
+  }
+  
+  .progress-wrap svg.progress-circle path {
+    stroke: orange;
+    stroke-width: 4;
+    box-sizing:border-box;
+    transition: all 200ms linear;
+  }
+
+
+
